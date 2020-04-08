@@ -24,3 +24,21 @@ CREATE TABLE employee (
   PRIMARY KEY(id)
 );
 
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Angelica", "Randall", 777, 1);
+
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Robin", "Hunter", 888, 2);
+
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Mark", "Trubolt", 999, 0);
+
+INSERT INTO department (name)
+VALUES ("Sales");
+
+INSERT INTO department (name)
+VALUES ("Management");
+
+INSERT INTO department (name)
+VALUES ("Human Resources");
+
