@@ -17,7 +17,7 @@ const connection = mysql.createConnection({
 inquirer
 .prompt([
   /* Pass your questions in here */
-  "Please pick a choice."
+  "What would you like to do?"
 
 ])
 .then(answers => {
